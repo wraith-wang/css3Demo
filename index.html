@@ -14,7 +14,7 @@
     <div class="item" ng-repeat="img in imgs" ng-click="show(img)"
       style="width: {{img.width * 200 / img.height}}px;flex-grow: {{img.width * 200 / img.height}}">
       <i style="padding-bottom: {{img.height / img.width * 100}}%"></i>
-      <img ng-src="{{img.url}}" alt="">
+      <img class="item-img" ng-src="{{img.url}}" alt="">
       <div class="detail">{{img.width}} x {{img.height}}</div>
     </div>
   </section>

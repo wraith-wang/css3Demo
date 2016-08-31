@@ -40,6 +40,10 @@ img {
   width: 100%;
 }
 
+.item-img {
+  cursor: pointer;
+}
+
 .item:hover .detail {
   opacity: 1;
 }
